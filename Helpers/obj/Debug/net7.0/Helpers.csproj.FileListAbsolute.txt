@@ -1,0 +1,12 @@
+C:\Users\Vini\source\repos\SIS_Sistema_Financeiro\Helpers\bin\Debug\net7.0\Helpers.deps.json
+C:\Users\Vini\source\repos\SIS_Sistema_Financeiro\Helpers\bin\Debug\net7.0\Helpers.dll
+C:\Users\Vini\source\repos\SIS_Sistema_Financeiro\Helpers\bin\Debug\net7.0\Helpers.pdb
+C:\Users\Vini\source\repos\SIS_Sistema_Financeiro\Helpers\obj\Debug\net7.0\Helpers.csproj.AssemblyReference.cache
+C:\Users\Vini\source\repos\SIS_Sistema_Financeiro\Helpers\obj\Debug\net7.0\Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vini\source\repos\SIS_Sistema_Financeiro\Helpers\obj\Debug\net7.0\Helpers.AssemblyInfoInputs.cache
+C:\Users\Vini\source\repos\SIS_Sistema_Financeiro\Helpers\obj\Debug\net7.0\Helpers.AssemblyInfo.cs
+C:\Users\Vini\source\repos\SIS_Sistema_Financeiro\Helpers\obj\Debug\net7.0\Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Vini\source\repos\SIS_Sistema_Financeiro\Helpers\obj\Debug\net7.0\Helpers.dll
+C:\Users\Vini\source\repos\SIS_Sistema_Financeiro\Helpers\obj\Debug\net7.0\refint\Helpers.dll
+C:\Users\Vini\source\repos\SIS_Sistema_Financeiro\Helpers\obj\Debug\net7.0\Helpers.pdb
+C:\Users\Vini\source\repos\SIS_Sistema_Financeiro\Helpers\obj\Debug\net7.0\ref\Helpers.dll
