@@ -4,6 +4,9 @@ parte 3[x]
 parte 4[x]
 parte 5[x]
 parte 6[x]
-parte 7[]
+parte 7[x]
+parte 8[ ]
+parte 9[ ]
+parte 10[ ]
 
 

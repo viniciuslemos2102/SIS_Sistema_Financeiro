@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vQDYE0a9aqLXhGiMs/ok0+4nGaOiZf0G4bAnvlHpZjY0UWicuXVxsYlDrKDGZNqyzygXa1L4b9OZVPd0tZPUzQ==",
+  "dgSpecHash": "XT45VlMYdQdp7pcMZRZC8fPmTrEY/CnHzfEFW7mFqYU1rnF4JWZmeBjblIRCnlXZ41CHEeOucZYyUeEJENfYiA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vini\\source\\repos\\SIS_Sistema_Financeiro\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vini\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Vini\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Vini\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Vini\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.5\\microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",
     "C:\\Users\\Vini\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.3\\microsoft.aspnetcore.cryptography.internal.7.0.3.nupkg.sha512",
     "C:\\Users\\Vini\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.3\\microsoft.aspnetcore.cryptography.keyderivation.7.0.3.nupkg.sha512",
     "C:\\Users\\Vini\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.3\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.3.nupkg.sha512",
