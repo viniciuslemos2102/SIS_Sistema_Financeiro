@@ -39,7 +39,7 @@ namespace Infra.Configuracao
         {
             //return "Data Source=NBQSP-FC693;Initial Catalog=FINANCEIRO_2023;Integrated Security=False;User ID=sa;Password=1234;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
 
-            return "Data Source=VINICIUS;Initial Catalog=FINANCEIRO_2023;Integrated Security=True";
+            return "Data Source=VINICIUS\\SQLEXPRESS;Initial Catalog=FINANCEIRO_2023;Integrated Security=True;TrustServerCertificate=True";
         }
     }
 
