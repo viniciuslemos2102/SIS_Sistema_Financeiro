@@ -7,6 +7,6 @@ parte 6[x]
 parte 7[x]
 parte 8[x]
 parte 9[x]
-parte 10[ ]
+parte 10[10]
 
 

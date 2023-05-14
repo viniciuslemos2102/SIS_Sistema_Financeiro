@@ -18,7 +18,7 @@ namespace WebApi.Controllers
             IUsuarioSistemaFinanceiroServico usuarioSistemaFinanceiroServico)
         {
             _interfaceUsuarioSistemaFinanceiro = interfaceUsuarioSistemaFinanceiro;
-            _usuarioSistemaFinanceiroServico = _usuarioSistemaFinanceiroServico;
+            _usuarioSistemaFinanceiroServico = usuarioSistemaFinanceiroServico;
         }
         [HttpGet("/api/ListaSistemaUsuario")]
         [Produces("application/json")]
