@@ -9,42 +9,44 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class DespesasController : ControllerBase
     {
-        private readonly InterfaceDespesa _interfaceDespesa;
-        private readonly IDespesaServico _IdespesaServico;
+        private readonly InterfaceDespesa _InterfaceDespesa;
+        private readonly IDespesaServico _IDespesaServico;
+        public DespesasController(InterfaceDespesa InterfaceDespesa, IDespesaServico IDespesaServico)
+        {
+            _InterfaceDespesa = InterfaceDespesa;
+            _IDespesaServico = IDespesaServico;
+        }
 
-        public DespesasController(InterfaceDespesa interfaceDespesa, 
-            IDespesaServico IdespesaServico )
-        {
-            _interfaceDespesa = interfaceDespesa;
-            _IdespesaServico = IdespesaServico;
-        }
-        [HttpGet("/api/ListaDespesasUsuario")]
+        [HttpGet("/api/ListarDespesasUsuario")]
         [Produces("application/json")]
-        public async Task<object> ListaDespesasUsuario(string emailUsuario)
+        public async Task<object> ListarDespesasUsuario(string emailUsuario)
         {
-            return await _interfaceDespesa.ListarDespesasUsuario(emailUsuario);
+            return await _InterfaceDespesa.ListarDespesasUsuario(emailUsuario);
         }
+
         [HttpPost("/api/AdicionarDespesa")]
         [Produces("application/json")]
         public async Task<object> AdicionarDespesa(Despesa despesa)
         {
-            await _IdespesaServico.AdicionarDespesa(despesa);
+            await _IDespesaServico.AdicionarDespesa(despesa);
 
             return despesa;
+
         }
 
         [HttpPut("/api/AtualizarDespesa")]
         [Produces("application/json")]
         public async Task<object> AtualizarDespesa(Despesa despesa)
         {
-            await _IdespesaServico.AtualizarDespesa(despesa);
+            await _IDespesaServico.AtualizarDespesa(despesa);
 
             return despesa;
+
         }
 
 
@@ -52,23 +54,25 @@ namespace WebApi.Controllers
         [Produces("application/json")]
         public async Task<object> ObterDespesa(int id)
         {
-            return await _interfaceDespesa.GetEntityById(id);
+            return await _InterfaceDespesa.GetEntityById(id);
         }
 
-        [HttpDelete("/api/DeletaDespesa")]
+
+        [HttpDelete("/api/DeleteDespesa")]
         [Produces("application/json")]
-        public async Task<object> DeletaDespesa(int id)
+        public async Task<object> DeleteDespesa(int id)
         {
             try
             {
-                var categoria = await _interfaceDespesa.GetEntityById(id);
-                await _interfaceDespesa.Delete(categoria);
+                var categoria = await _InterfaceDespesa.GetEntityById(id);
+                await _InterfaceDespesa.Delete(categoria);
+
             }
             catch (Exception)
             {
-
                 return false;
             }
+
             return true;
         }
 
@@ -76,7 +80,10 @@ namespace WebApi.Controllers
         [Produces("application/json")]
         public async Task<object> CarregaGraficos(string emailUsuario)
         {
-            return await _IdespesaServico.CarregaGraficos(emailUsuario);
+            return await _IDespesaServico.CarregaGraficos(emailUsuario);
         }
+
+
     }
 }
+
