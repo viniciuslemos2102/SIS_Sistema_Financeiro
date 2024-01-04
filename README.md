@@ -16,20 +16,20 @@ Bem-vindo à API de Controle Financeiro em .NET 6! Este projeto é uma iniciativ
   - **Domain**: Definição das entidades de domínio, agregados e interfaces de repositório.
   - **Infrastructure**: Implementação concreta do repositório, contexto de banco de dados e configuração.
   - **Presentation**: Controladores, modelos de exibição e configuração da API.
-- **Tests**: Testes unitários para garantir a qualidade do código.
+- **Tests**: Testes unitários para garantir a qualidade do código. `FUTURA IMPLEMENTAÇÃO`
 
 ## Tecnologias Utilizadas
 
 - **.NET 6**: Aproveita as últimas funcionalidades e melhorias do framework.
 - **Entity Framework Core**: Para interação com o banco de dados utilizando o padrão Repository.
 - **Swagger**: Documentação interativa da API para facilitar o entendimento e teste.
-- **Autenticação JWT**: Garante segurança nas operações com autenticação baseada em token JWT.
+- **Autenticação JWT**: Garante segurança nas operações com autenticação baseada em token JWT. `FUTURA IMPLEMENTAÇÃO`
 
 ## Como Iniciar
 
 1. **Pré-requisitos**: Instale o .NET 6 SDK em sua máquina.
-2. **Clone o Repositório**: `git clone https://github.com/seu-usuario/api-controle-financeiro.git`
-3. **Acesse o Diretório**: `cd api-controle-financeiro/App/Presentation`
+2. **Clone o Repositório**: `git clone https:///viniciuslemos2102/SIS_Sistema_Financeiro.git`
+3. **Acesse o Diretório**: `cd SIS_Sistema_Financeiro/App/Presentation`
 4. **Configuração do Banco de Dados**: Abra o arquivo `appsettings.json` e ajuste a conexão do banco de dados.
 5. **Aplicar Migrações**: Execute `dotnet ef database update` para aplicar as migrações.
 6. **Execute a API**: `dotnet run`
